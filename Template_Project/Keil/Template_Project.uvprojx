@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>GPIO_OutputInput</TargetName>
+      <TargetName>Template_Project</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\obj\</OutputDirectory>
-          <OutputName>GPIO_OutputInput</OutputName>
+          <OutputName>Template_Project</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -440,9 +440,9 @@
           <GroupName>User Driver</GroupName>
           <Files>
             <File>
-              <FileName>ads8353.c</FileName>
+              <FileName>template.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\UserDriver\src\ads8353.c</FilePath>
+              <FilePath>..\..\UserDriver\src\template.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -461,7 +461,7 @@
       <Layer>
         <LayName>GPIO_OutputInput</LayName>
         <LayPrjMark>1</LayPrjMark>
-        <LayTitle>GPIO_LEDBlink</LayTitle>
+        <LayTitle>Template_Project</LayTitle>
       </Layer>
     </Layers>
   </LayerInfo>
